@@ -1,1 +1,7 @@
-# BWD-BilalAarab-2122
+# Basic Web Development
+
+- Academiejaar: 
+- Opleiding: 
+- Klasgroep: 
+- Naam: 
+
