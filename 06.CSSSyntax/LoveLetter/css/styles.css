@@ -15,6 +15,7 @@ body {
    box-shadow: 10px 10px 5px rgb(226, 15, 15)
    border-radius 50px 5px 5px 5px;
 
+
 }
 
 mark {
@@ -37,13 +38,14 @@ span{
 }
 
 
-footer {
+footer {text-align: right;
    margin-top: 40px;
 }
 
 footer p {
    margin: 0;
 }
+
 
 .date {
    margin-top: 10px;
