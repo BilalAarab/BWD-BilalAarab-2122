@@ -1,0 +1,78 @@
+header{
+   background-color: white;
+}
+body{
+   background-color: #dfdfdf;
+   font-family: "Roboto", sans-serif;
+   font-size: 12px 1.8pt;
+}
+
+h3 {
+   color:#B52025;
+}
+h3:after{
+   content: " →" ;
+}
+#email{
+   border: 1px solid black;
+   background-color: #b5202552;
+}
+
+::placeholder{
+   color: white;
+}
+.minibanner {
+   background-color: #e6e6e6;
+   border: 1px solid #999999;
+}
+
+#button_sign{
+   color: black;
+   font-size: 13px;
+   padding: 5px 8px;
+   display: inline-block;
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+}
+.more_button{
+   color: #B52025;
+   font-size: 8px;
+   padding: 5px 8px;
+   display: inline-block;
+   text-align: center;
+   text-decoration: none;
+   border:1px solid #B52025;
+   border-radius: 5px;
+   cursor: pointer;
+}
+#button_sign:hover{
+   background-color: #B52025;
+   transition-duration: 0.5s;
+   color: white;
+}
+.active{
+   color: black;
+   font-size: 13px;
+   padding: 5px 8px;
+   display: inline-block;
+   text-align: center;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+}
+.active:hover{
+   background-color: #B52025;
+   color: white;
+   transition-duration: 0.5s;
+}
+#banner{
+   border:#B52025;
+   border-style: solid;
+   border-width: 6px;
+   box-shadow: 6px 6px 5px;
+}
+
+main{
+   background-color: white;
+}
