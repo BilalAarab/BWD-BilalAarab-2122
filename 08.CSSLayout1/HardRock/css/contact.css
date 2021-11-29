@@ -1,0 +1,61 @@
+/* ===========================================
+   Main
+   =========================================== */
+
+/* top */
+
+#main_top {
+   padding: 30px 15px 0 5px;
+}
+
+#main_top h2 {
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+address {
+   font-size: 14px;
+   font-style: normal;
+   line-height: 1.6;
+   margin-bottom: 20px;
+}
+
+/* bottom */
+
+#main_bottom {
+   padding: 30px 15px 0 15px;
+}
+iframe {
+   width: 69%;
+   border: none;
+   
+}
+#bottom_content {
+	display: flex;
+	justify-content: space-between;
+}
+.left {
+	width: 69%;
+	margin-right: 40px;
+}
+.left input{
+   margin-left: 70px;
+   width: 72%;
+}
+.left textarea{
+   margin-left: 64px;
+   width: 70%;
+}
+
+/* form */
+
+form label {
+   font-size: 14px;
+   font-style: italic;
+}
+
+form input {
+   padding: 6px;
+   width: 350px;
+}
+
