@@ -1,11 +1,16 @@
 /* ===========================================
    Main
    =========================================== */
+   main{
+      max-width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+   }
 
 /* top */
 
 #main_top {
-   padding: 30px 15px 0 5px;
+   padding: 30px 15px 0 15px;
 }
 
 #main_top h2 {
@@ -25,37 +30,37 @@ address {
 #main_bottom {
    padding: 30px 15px 0 15px;
 }
+.left{
+    width: 55%;
+    margin-right: 40px;
+}
 iframe {
-   width: 69%;
+   width: 55%;
    border: none;
+   height: 600px;
    
 }
 #bottom_content {
 	display: flex;
 	justify-content: space-between;
 }
-.left {
-	width: 69%;
-	margin-right: 40px;
-}
-.left input{
-   margin-left: 70px;
-   width: 72%;
-}
-.left textarea{
-   margin-left: 64px;
-   width: 70%;
+#bottom_content p label{
+   padding-right: 45px;
 }
 
 /* form */
 
 form label {
-   font-size: 14px;
+   font-size: 16px;
    font-style: italic;
 }
 
 form input {
-   padding: 6px;
-   width: 350px;
+   padding: 7px;
+   width: 330px;
 }
 
+form textarea{
+   height: 150px;
+   width: 310px;
+}
