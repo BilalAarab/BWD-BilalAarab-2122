@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Manjari', sans-serif;
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+}
+
+h2,
+h3 {
+    font-family: 'Manjari', sans-serif;
+    color: rgb(41, 86, 212);
+    font-style: bold;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+.Responsible {
+    color: white;
+    font-style: normal;
+    font-size: 15px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 33px 0px 33px;
+    max-width: 960px;
+    width: 100%;
+    align-items: center;
+}
+
+#mainmenu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    list-style: none;
+    font-family: 'Manjari', sans-serif;
+}
+
+#mainmenu a {
+    color: rgb(132, 218, 47);
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Manjari', sans-serif;
+}
+
+#mainmenu li a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(136, 219, 52);
+    font-family: 'Manjari', sans-serif;
+}
+
+#mainmenu .active a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(134, 218, 50);
+    font-family: 'Manjari', sans-serif;
+}
+
+#banner {
+    display: flex;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner_box {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    margin: 0px auto;
+}
+
+.FooterEnding {
+    border-style: solid;
+    border-color: rgb(104, 166, 236);
+    color: rgb(81, 195, 248);
+    background-color: rgb(116, 213, 243);
+    width: 300px;
+    height: 150px;
+}
+
+.readmoreEnding {
+    text-decoration: underline;
+    color: rgb(78, 193, 247);
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.Space {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.Stakeholders1 {
+    height: 280px;
+    width: 35%;
+    padding-top: 60px;
+    padding-left: 200px;
+    padding-right: 10px;
+    float: left;
+}
+
+.Stakeholders2 {
+    height: 280px;
+    width: 30%;
+    padding-top: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+    float: left;
+}
+
+.Stakeholders3 {
+    height: 280px;
+    width: 35%;
+    padding-top: 60px;
+    padding-left: 5px;
+    padding-right: 200px;
+    float: right;
+}
+
+.TitleEnding {
+    color: rgb(70, 120, 240);
+}
+
+.featured_service1 {
+    height: 280px;
+    width: 35%;
+    padding-top: 60px;
+    padding-left: 200px;
+    padding-right: 10px;
+    float: left;
+}
+
+.featured_service2 {
+    height: 280px;
+    width: 30%;
+    padding-top: 60px;
+    padding-right: 70px;
+    padding-left: 70px;
+    float: left;
+}
+
+.featured_service3 {
+    height: 280px;
+    width: 35%;
+    padding-top: 60px;
+    padding-right: 200px;
+    padding-left: 5px;
+    float: right;
+}
+
+.Deel {
+    padding-bottom: 20px;
+}
+
+.Mainstakeholder {
+    padding-top: 300Px;
+}
+
+.TitleAbove {
+    padding-top: 60px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+footer {
+    background-color: black;
+    padding: 60px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    width: 100%;
+    color: white;
+
+}
+
+footer ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+
+footer li a {
+    padding: 0 60px 0 0;
+    color: white;
+}
