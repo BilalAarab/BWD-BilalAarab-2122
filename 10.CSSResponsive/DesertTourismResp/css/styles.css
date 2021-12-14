@@ -1,0 +1,76 @@
+/**
+ * Layout styles for Desert Tours
+ *
+ * @author Bilal Aarab
+ /
+
+/* GENERAL */
+html {
+	font-size: 100%;
+}
+body{
+    max-width: 60rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* HEADER */
+header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+header ul{
+    align-items: center;
+    display: flex ;
+}
+
+header li{
+    margin: 1.125rem
+}
+
+/* MAIN */
+main li {
+    padding: 0.438rem;
+    width: 25%;
+}
+
+main ul{
+ flex-wrap: wrap;
+ display: flex;
+}
+
+/* CONTENT */
+#content{
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    display: flex;
+}
+.left {
+    width: 75%;
+}
+.right {
+    width: 40%;
+}
+.right img{
+    float: right;
+}
+
+/* DOORMAT */
+#doormat{
+    height: 12.5rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+/* FOOTER */
+footer {
+    justify-content: space-between;
+    display: flex;
+  
+  }
+  
