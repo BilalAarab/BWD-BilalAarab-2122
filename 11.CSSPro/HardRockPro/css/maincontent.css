@@ -1,0 +1,21 @@
+/* ===========================================
+   Main content
+   =========================================== */
+
+/* general */
+
+main {
+	background-color: #fff;
+   padding-bottom: 3.125rem;
+}
+
+main p {
+	color: #666;
+	line-height: 1.25rem;
+}
+.wrapper {
+   justify-content: space-between;
+	margin: auto;
+	max-width: 60rem;
+	width: 100%;
+}

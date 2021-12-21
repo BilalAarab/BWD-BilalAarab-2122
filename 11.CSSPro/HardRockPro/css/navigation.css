@@ -1,0 +1,41 @@
+/* navigation */
+header {
+	display: flex;
+	justify-content: center;
+}
+
+header .wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin: auto;
+	max-width: 60rem;
+	width: 100%;
+}
+
+header .wrapper p {
+	text-align: right;
+}
+
+#mainmenu {
+   display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-content: center;
+	list-style: none;
+	margin-top: 2.188rem;
+}
+
+#mainmenu a {
+   color: #000;
+	font-size: 1.063rem;
+	text-transform: uppercase;
+   padding: 0.625rem;
+	display: block;
+}
+
+#mainmenu li a:hover,
+#mainmenu .active a {
+	color: #14833b;
+	text-decoration: none;
+}

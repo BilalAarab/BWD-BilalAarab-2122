@@ -1,0 +1,66 @@
+/* ===========================================
+   Main
+   =========================================== */
+   main{
+      max-width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+   }
+
+/* top */
+
+#main_top {
+   padding: 1.875rem 0.938rem 0 0.938rem;
+}
+
+#main_top h2 {
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+address {
+   font-size: 0.875rem;
+   font-style: normal;
+   line-height: 1.6;
+   margin-bottom: 1.25rem;
+}
+
+/* bottom */
+
+#main_bottom {
+   padding: 1.875rem 0.938rem 0 0.938rem;
+}
+.left{
+    width: 55%;
+    margin-right: 2.5rem;
+}
+iframe {
+   width: 55%;
+   border: none;
+   height: 37.5rem;
+   
+}
+#bottom_content {
+	display: flex;
+	justify-content: space-between;
+}
+#bottom_content p label{
+   padding-right: 2.813rem;
+}
+
+/* form */
+
+form label {
+   font-size: 1rem;
+   font-style: italic;
+}
+
+form input {
+   padding: 0.375rem;
+   width: 20.625rem;
+}
+
+form textarea{
+   height: 9.375rem;
+   width: 19.375rem;
+}

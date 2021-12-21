@@ -1,0 +1,33 @@
+/* ===========================================
+   Header
+   =========================================== */
+
+   header {
+    background: linear-gradient(0deg, rgba(200,200,200,1) 35%, rgba(240,240,240,1) 85%);
+ } 
+ 
+ header .wrapper {
+     padding: 1.25rem 0;
+ }  
+ 
+ /* logo */
+ 
+ .logo h1 {
+     font-size: 3rem;
+ }
+ 
+ .logo h1 a {
+     color: #333;
+    font-family: 'Special Elite', cursive;
+ }
+ 
+ .logo h1 a:hover {
+     text-decoration: none;
+ }
+ 
+ .logo p {
+     font-size: 0.875rem;
+     color: #555;
+     font-style: italic;
+ }
+ 
