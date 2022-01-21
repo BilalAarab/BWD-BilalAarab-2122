@@ -1,0 +1,12 @@
+.topContact{
+    background-color: blanchedalmond;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+.contact-left{
+    background-color: blanchedalmond;
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+}
