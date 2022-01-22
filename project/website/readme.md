@@ -10,4 +10,7 @@
  - Afbeelding komen allemaal van Google met de gebruiksrechten!
  - Er staat Licentieerbaar. De links dat ik moest bijzetten zal ik hier allemaal plaatsen:
 
+
+ LINK NAAR MIJN WABSITE : aycupping.be
+
 ## Project code
