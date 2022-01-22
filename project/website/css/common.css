@@ -7,7 +7,10 @@
 * {
     box-sizing: border-box; /* width and height include paddings and borders */
     margin: 0; /* wipe out browser differences */
-    padding: 0; /* wipe out browser differences */ 
+    padding:0; /* wipe out browser differences */ 
+ }
+ html{
+     height: 100%;
  }
  
  img {
@@ -18,8 +21,8 @@
  body {
      background-color: #dae0d2;
      font-family: 'Luxurious Roman', cursive;
-     font-size: 14px; 
-    line-height: 1.4;
+     font-size: 16px; 
+    line-height: 1.2;
  }
  
  /* elements */
@@ -102,17 +105,17 @@
  } 
  
  header .wrapper {
-     padding: 20px 0;
+     padding: 40px 0;
  }  
  
  /* logo */
  
  .logo h1 {
-     font-size: 48px;
+     font-size: 50px;
  }
  
  .logo h1 a {
-    color: rgb(0, 0, 0);
+    color: rgb(48, 43, 43);
     font-family: 'Merriweather', serif;
  }
  
@@ -155,18 +158,27 @@
  }
  
  #mainmenu a {
-    color: #000;
-     font-size: 17px;
+     color: #000;
+     font-size: 20px;
      text-transform: uppercase;
-    padding: 10px;
+     padding: 10px;
      display: block;
  }
  
  #mainmenu li a:hover,
  #mainmenu .active a {
-     color: #14833b;
-     text-decoration: none;
+     color: #206338;
+     text-decoration: active;
+
  }
+ .button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50; 
+    color: white;
+  }
  
  /* ===========================================
     Main content
@@ -175,8 +187,8 @@
  /* general */
  
  main {
-     background-color: #fff;
-    padding-bottom: 50px;
+     background-color: rgb(238, 240, 232);
+     padding-bottom: 50px;
  }
  
  main p {
@@ -198,7 +210,7 @@
    =========================================== */
 
 footer {
-    position: relative;
+    position: center;
     min-height: 100%;
 }
 
@@ -209,7 +221,7 @@ footer {
 #doormat {
     background: rgb(167, 197, 167);
     margin-top: 1px;
-    padding: 10px 20px;
+    padding: 10px 280px;
 }
 
 
@@ -255,45 +267,26 @@ li a {
     transition: all 0.2s;
     width: 50px;
 }
-
-.facebook :hover {
-    background-color: #3b5999;
-    color: #ffffff;
-}
-
-.instagram :hover {
-    background-color: #e1306c;
-    color: #ffffff;
-}
-
-.youtube :hover {
-    background-color: #de463b;
-    color: #ffffff;
-}
-
 .contacts_footer {
     color: #fff;
     text-align: center;
     font-size: 19px;
 }
+.links_page {
+    text-align: center;
+}
 
+.links_page a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.links_page a:hover {
+    text-decoration: underline;
+}
 @media (min-width: 700px) {
     #doormat .wrapper {
         display: flex;
         justify-content: space-between;
     }
-}
-
-
-.links_pages {
-    text-align: center;
-}
-
-.links_pages a {
-    color: #fff;
-    font-size: 19px;
-}
-
-.links_pages a:hover {
-    text-decoration: underline;
 }

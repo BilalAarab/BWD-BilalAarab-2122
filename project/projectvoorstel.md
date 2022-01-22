@@ -29,22 +29,22 @@ beschrijving:
 hier zal je de top 5 beste cupping therapie vinden van deze 6 maanden.
 
 ### PAGINA 2
-naam: Artikelen
+naam: Cupping
 beschrijving:
 
-Hier zal je alle artikelen die je nodig heb vinden.
+Hier zal je meer informatie vinden over cupping therapie en zo voort.
 
 ### PAGINA 3
-naam: Over ons 
+naam: Treatments
 beschrijving:
 
-Hier zal alle informatie vinden over ons bedrijf en waar ons bedrijf zit.
+Hier zal je de verschillende treatments vinden.3 soorten in het onderneming.
 
 ### PAGINA 4
-naam: Shop 
+naam: Contact
 beschrijving:
 
-Hier zal je vinden wat je allemaal kan kopen in ons bedrijf zoals producten voor het huid, boeken, guide die info geeft over cupping therapie.
+Hier zal je het nummer , mail , adres en zo voort vinden en nog een map vinden.
 
 ## E. REFERENTIES (optioneel) 
 zet hier links naar bronnen als de eventuele huidige website, sites of designs waar je je op wil inspireren... 
