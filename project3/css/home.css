@@ -1,6 +1,7 @@
 .column {
     float: left;
     width: 33.33%;
+    height: 300px;
   }
   
   /* Clear floats after the columns */
@@ -10,10 +11,32 @@
     clear: both;
   }
 
+.minibanner{
+  width: 100%;
+ height: 100%;
+}
+
+.more{
+  margin-top: 10%;
+}
+.more_a{
+  color: rgb(12, 126, 126);
+  text-decoration: none;
+}
+.more_a:hover{
+  color: black;
+}
+.contacts_footer{
+  font-family: Arial, Helvetica, sans-serif;
+}
   @media (max-width: 400px) {
 
     .column{
         float: none;
         padding-left: 10%;
     }
+    .minibanner{
+      width: 200px;
+    
+  }
   }

@@ -3,6 +3,7 @@ html{
 }
 main{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 5% 15% 0 15%;
 }
 
 header {
@@ -103,7 +104,7 @@ header {
    footer {
     padding: 0px 0;
     background: rgb(135, 201, 202);
-    color: #000000;
+    color: #fffdfd;
     width: 100%;
     overflow: hidden;
 }
@@ -125,7 +126,7 @@ footer ul {
 
 footer ul a {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: rgb(255, 253, 253);
     text-decoration: none;
     opacity: 0.8;
 }

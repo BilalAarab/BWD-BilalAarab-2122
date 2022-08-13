@@ -1,0 +1,15 @@
+.links:link{
+    color: rgb(12, 126, 126);
+    text-decoration: none;
+}
+
+iframe{
+    margin-bottom: 20px;
+}
+
+main{
+    border: 5px solid rgb(21, 158, 135);
+ 
+    padding: 5%;
+        margin: 0 15% 0 15%;
+}
