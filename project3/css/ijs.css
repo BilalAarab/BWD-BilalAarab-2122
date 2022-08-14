@@ -1,4 +1,13 @@
 .minibanner{
     border: 5px solid rgb(21, 158, 135);
-    border-radius: 20px;
+    border-radius: 0px;
 }
+.text_part_one{
+    border: 2px solid rgb(21, 158, 135);
+    border-radius: 0px;
+}
+@media (max-width: 400px) {
+    .minibanner{
+        width: 100%;
+    }
+  }

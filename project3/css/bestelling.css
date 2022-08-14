@@ -1,0 +1,59 @@
+textarea{
+    resize: none;
+
+}
+p{
+    margin-left: 20px;
+}
+.form_text{
+    width: 20%;
+    margin-right: 13%;
+}
+.form_text1{
+    width: 25%;
+    margin-right: 10%;
+}
+.form_text2{
+    width: 30%;
+    margin-right: 5%;
+}
+.left_form1{
+    width: 10%;
+}
+main{
+    border: 2px solid rgb(21, 158, 135);
+    border-radius: 0px;
+    margin-top: 0;
+}
+.Input_Submit{
+    background-color: rgb(21, 158, 135);
+    color: white;
+}
+
+h2{
+    margin-left: 20px;
+}
+@media (max-width: 400px) {
+
+    .form_text{
+        width: 90%;
+    }
+    .form_text1{
+        width: 90%;
+    }
+    .form_text2{
+        width: 90%;
+    }
+    .left_form1{
+        width: 90%;
+    }
+    .left_form{
+        width: 90%;
+    }
+    textarea{
+        width: 90%;
+    }
+    P{
+        margin-left: 10PX;
+    }
+}

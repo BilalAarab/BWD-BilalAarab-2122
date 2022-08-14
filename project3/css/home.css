@@ -1,7 +1,8 @@
 .column {
     float: left;
-    width: 33.33%;
+    width: 30%;
     height: 300px;
+    font-weight: bold;
   }
   
   /* Clear floats after the columns */
@@ -13,11 +14,15 @@
 
 .minibanner{
   width: 100%;
- height: 100%;
+  height: 70%;
+}
+.column{
+    border: 2px solid rgb(21, 158, 135);
+    border-radius: 0px;
 }
 
 .more{
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .more_a{
   color: rgb(12, 126, 126);
@@ -29,14 +34,24 @@
 .contacts_footer{
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.prijzen{
+  border: 3px solid rgb(21, 158, 135);
+  width: 20%;
+  padding-left: 10px;
+}
   @media (max-width: 400px) {
 
     .column{
         float: none;
         padding-left: 10%;
+        width: 100%;
     }
     .minibanner{
       width: 200px;
     
+  }
+  .prijzen{
+    width: 100%;
   }
   }
